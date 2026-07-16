@@ -2,6 +2,7 @@
   "name": "papa-amadou-fall-fullstack",
   "version": "1.0.0",
   "private": true,
+  "engines": { "node": ">=22.13.0" },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

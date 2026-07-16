@@ -19,7 +19,7 @@ The site is server-rendered and statically exported. It contains no runtime API,
 
 ## Local setup
 
-Requires Node.js 20 or newer.
+Requires Node.js 22.13 or newer. GitHub Actions uses Node.js 24.
 
 ```bash
 npm install
