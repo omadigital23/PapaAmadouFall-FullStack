@@ -110,8 +110,11 @@ def build(path: Path):
         Paragraph("Papa Amadou Fall", styles["name"]),
         Paragraph("FULL STACK ENGINEER | REACT, TYPESCRIPT, PYTHON/DJANGO, MYSQL AND AWS", styles["headline"]),
         Paragraph(
-            "Campbell River, British Columbia, Canada  |  fallpape199@gmail.com  |  github.com/omadigital23<br/>"
-            "linkedin.com/in/papa-amadou-fall-bb95a01a1  |  omadigital23.github.io/PapaAmadouFall-FullStack/",
+            "Campbell River, BC, Canada  |  "
+            "<link href='mailto:fallpape199@gmail.com' color='#536660'>fallpape199@gmail.com</link>  |  "
+            "<link href='https://omadigital23.github.io/PapaAmadouFall-FullStack/' color='#536660'><b>Portfolio:</b> omadigital23.github.io/PapaAmadouFall-FullStack/</link><br/>"
+            "<link href='https://www.linkedin.com/in/papa-amadou-fall-bb95a01a1' color='#536660'>LinkedIn: linkedin.com/in/papa-amadou-fall-bb95a01a1</link>  |  "
+            "<link href='https://github.com/omadigital23' color='#536660'>GitHub: github.com/omadigital23</link>",
             styles["contact"],
         ),
         section_heading("Professional summary", styles),
