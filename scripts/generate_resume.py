@@ -120,7 +120,7 @@ def build(path: Path):
         section_heading("Professional summary", styles),
         Spacer(1, 5),
         Paragraph(
-            "Full Stack Engineer with project-based experience delivering customer-facing web applications from responsive React and TypeScript interfaces through REST APIs, database models and cloud deployment. Hands-on with Next.js, Python/Django, MySQL, PostgreSQL, Supabase and AWS. Brings structured production troubleshooting, bilingual communication and direct client collaboration to build reliable, maintainable software with clear ownership from requirement to release.",
+            "Full Stack Engineer with professional and project-based experience delivering customer-facing web applications from responsive React and TypeScript interfaces through REST APIs, database models and cloud deployment. Previously supported the scalability of a commercial e-commerce website at Nettransact. Hands-on with Next.js, Python/Django, MySQL, PostgreSQL, Supabase and AWS, with structured production troubleshooting and bilingual client communication.",
             styles["body"],
         ),
         section_heading("Core technical fit", styles),
@@ -186,9 +186,9 @@ def build(path: Path):
             Spacer(1, 6),
             role_block(
                 "OMA Digital - Full Stack Developer / Automation Builder",
-                "Freelance and project-based | 2015 - Present",
+                "Part-time freelance and project-based | 2015 - Present",
                 [
-                    "Deliver end-to-end applications and features across React/Next.js interfaces, Python/Django backend work, REST APIs and relational data models.",
+                    "Deliver end-to-end applications and features across React/Next.js interfaces, REST APIs and relational data models.",
                     "Work directly with clients to clarify requirements, simplify workflows and turn business needs into maintainable product behaviour.",
                     "Integrate authentication, databases, external APIs and automation workflows; use strict typing, linting, tests and documentation while deploying and troubleshooting across cloud environments.",
                 ],
@@ -204,11 +204,20 @@ def build(path: Path):
                 ],
                 styles,
             ),
+            Spacer(1, 6),
+            role_block(
+                "Nettransact - Web Developer",
+                "Full time | Senegal | 2014 - 2016",
+                [
+                    "Worked as a developer on the scalability of the company website in a commercial e-commerce environment.",
+                ],
+                styles,
+            ),
             Spacer(1, 4),
             Paragraph("<b>Additional Canadian employment:</b> Tim Hortons - Customer Service Team Member | June 2026 - Present. Reliability, teamwork, procedure compliance and customer communication.", styles["small"]),
             section_heading("Additional engineering experience", styles),
             Spacer(1, 6),
-            Paragraph("<b>Python/Django:</b> Build models, views, forms, authentication flows, migrations, REST endpoints and database-backed business rules with explicit server-side validation. Some client repositories are private.", styles["body"]),
+            Paragraph("<b>Python/Django:</b> Learned Python and Django at the University of Thies and continue through practical assignments, personal projects and hands-on practice with models, views, forms, authentication, migrations, REST endpoints and database-backed rules.", styles["body"]),
             Paragraph("<b>AWS, Google Cloud and n8n:</b> Provision cloud VMs; configure Linux, environment variables, DNS, Nginx and HTTPS; operate API/webhook workflows and troubleshoot application, network and deployment issues.", styles["body"]),
             section_heading("Engineering approach", styles),
             Spacer(1, 5),

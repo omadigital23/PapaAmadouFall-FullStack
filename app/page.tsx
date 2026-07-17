@@ -479,11 +479,11 @@ export default function Home() {
                 <p className="date">2015 — Present</p>
                 <div>
                   <h3>OMA Digital</h3>
-                  <p className="role">Full Stack Developer / Automation Builder · Project-based</p>
+                  <p className="role">Full Stack Developer / Automation Builder · Part-time freelance</p>
                 </div>
                 <p>
-                  Product architecture, React/Next.js interfaces, Python/Django work,
-                  APIs, schemas, authentication, integrations, cloud deployment, n8n,
+                  Product architecture, React/Next.js interfaces, APIs, schemas,
+                  authentication, integrations, cloud deployment, n8n,
                   testing, debugging and documentation.
                 </p>
               </article>
@@ -496,6 +496,17 @@ export default function Home() {
                 <p>
                   Structured diagnosis, production troubleshooting, escalation,
                   technical documentation and customer communication in a high-volume environment.
+                </p>
+              </article>
+              <article>
+                <p className="date">2014 — 2016</p>
+                <div>
+                  <h3>Nettransact</h3>
+                  <p className="role">Web Developer · Full time · Senegal</p>
+                </div>
+                <p>
+                  Web development focused on the scalability of the company website
+                  in a commercial e-commerce environment.
                 </p>
               </article>
               <article>
