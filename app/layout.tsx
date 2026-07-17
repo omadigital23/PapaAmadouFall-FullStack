@@ -1,14 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const title = "Papa Amadou Fall | Full Stack Engineer";
-const description = "Full Stack Engineer in British Columbia building React, TypeScript, Next.js, Python, Django, API, database and cloud automation solutions.";
+const title = "Papa Amadou Fall | Full Stack Engineer II";
+const description = "Full Stack Engineer in British Columbia delivering reliable SaaS features across React, TypeScript, Python/Django, REST APIs, relational data and cloud deployment.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://omadigital23.github.io"),
   title,
   description,
-  applicationName: "Papa Amadou Fall Full Stack Portfolio",
+  applicationName: "Papa Amadou Fall | Full Stack Engineering Portfolio",
   authors: [{ name: "Papa Amadou Fall", url: "https://github.com/omadigital23" }],
   keywords: ["Full Stack Engineer Canada", "React Developer", "Next.js Developer", "TypeScript Developer", "Python Developer", "Django Developer", "SaaS Engineer", "AWS", "Google Cloud", "REST API", "Supabase", "PostgreSQL", "MySQL", "n8n"],
   alternates: { canonical: "/PapaAmadouFall-FullStack/" },

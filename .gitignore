@@ -8,3 +8,5 @@ npm-debug.log*
 .DS_Store
 tmp/
 output/
+__pycache__/
+*.pyc

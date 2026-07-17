@@ -1,6 +1,6 @@
 # Papa Amadou Fall — Full Stack Engineer Portfolio
 
-A recruiter-focused portfolio presenting Papa Amadou Fall’s full-stack product engineering, React/TypeScript, Python/Django, database, cloud and automation experience.
+A recruiter-focused portfolio presenting Papa Amadou Fall's full-stack product engineering, React/TypeScript, Python/Django, database, cloud and automation experience. The information architecture is optimized for Full Stack Engineer II and SaaS product roles.
 
 - Live site: <https://omadigital23.github.io/PapaAmadouFall-FullStack/>
 - GitHub profile: <https://github.com/omadigital23>
@@ -49,6 +49,7 @@ app/
   sitemap.ts       generated sitemap
   not-found.tsx    static 404 experience
 public/assets/     downloadable Full Stack resume
+public/projects/   optimized media from public production projects
 .github/workflows/ GitHub Pages CI/CD
 ```
 
@@ -66,7 +67,8 @@ In repository settings, Pages must use **GitHub Actions** as its source. No depl
 - Reduced-motion support
 - Responsive layouts without client-side JavaScript
 - System font stack to avoid render-blocking font requests
-- No stock photography, third-party embeds or layout-shifting media
+- Optimized first-party project media with explicit dimensions
+- No third-party embeds or layout-shifting media
 
 ## Security and content integrity
 
