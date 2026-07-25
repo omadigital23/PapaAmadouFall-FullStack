@@ -411,12 +411,14 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background: var(--lime);
+  color: #14231f;
 }
 
 .proof-bar p {
   margin: 0;
   padding: 25px 24px;
   border-left: 1px solid rgba(20, 35, 31, 0.18);
+  color: #14231f;
 }
 
 .proof-bar p:last-child {
@@ -432,12 +434,14 @@ img {
   margin-bottom: 5px;
   font-size: 16px;
   letter-spacing: -0.02em;
+  color: #14231f;
 }
 
 .proof-bar span {
   font: 700 9px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #2b3d36;
 }
 
 .section {
