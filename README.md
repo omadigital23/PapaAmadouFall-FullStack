@@ -17,6 +17,8 @@ A recruiter-focused portfolio presenting Papa Amadou Fall's full-stack product e
 
 The site is server-rendered and statically exported. It contains no runtime API, tracking script or client-side state library.
 
+The `/support-automation-demo/` route is an interactive, client-side prototype. It uses deterministic typed rules and fictional tickets to demonstrate support triage, SLA risk, safe knowledge retrieval, response drafting and human review. It makes no external API call and stores no data.
+
 ## Local setup
 
 Requires Node.js 22.13 or newer. GitHub Actions uses Node.js 24.
@@ -45,6 +47,7 @@ app/
   layout.tsx       global metadata and document layout
   page.tsx         portfolio content and structured data
   globals.css      responsive visual system
+  support-automation-demo/  local-only interactive support prototype
   robots.ts        robots metadata
   sitemap.ts       generated sitemap
   not-found.tsx    static 404 experience

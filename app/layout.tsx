@@ -17,8 +17,26 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f5f7f3", colorScheme: "light" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#133c32", colorScheme: "light dark" };
+
+const themeScript = `
+  (function() {
+    try {
+      var saved = localStorage.getItem('theme');
+      var pref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var theme = saved || pref;
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
 }
